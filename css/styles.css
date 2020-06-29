@@ -21,6 +21,17 @@ h1 {
     margin-inline-end: 0px;
 }
 
+h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
 
 /* -----------------HEADER------------------ */
 
@@ -112,6 +123,12 @@ main section img {
     opacity: 0.6;
 }
 
+main section p {
+    line-height: 1.5;
+    font-size: large;
+    text-align: left;
+}
+
 
 /* ++++++++SECTION-1+++++++++++ */
 
@@ -121,12 +138,42 @@ main section img {
     border-bottom: 1px solid #68d6f1;
 } */
 
+#seasonal {
+    background-color: lightgray;
+}
+
+#trad {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#sec1-p1 {
+    font-size: 18;
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 18px 0;
+}
+
+#sec1-p2 {
+    color: gray;
+    padding-top: 20px;
+    margin: 18px 0;
+    font-size: 18;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
 .first-dish {}
 
 .first-dish-disc {}
 
 
 /* ++++++++SECTION-2+++++++++++ */
+
+.menu-p {
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 40px;
+}
 
 #section2 {}
 
@@ -135,4 +182,59 @@ main section img {
 .second-dish-disc {}
 
 
+/* ++++++++SECTION-3+++++++++++ */
+
+#Contact {
+    text-align: left;
+}
+
+#blue-one {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #607d8b;
+    padding-bottom: 15px;
+}
+
+.sec3-p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+#Date {
+    float: right;
+}
+
+.info {
+    color: gray;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+#send-msg {
+    background-color: rgb(201, 199, 199);
+    padding-bottom: 40px;
+}
+
+
 /* -----------------FOOTER------------------ */
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: rgb(20, 241, 12);
+}
+
+footer {
+    background-color: lightgray;
+    padding: 50px 0 50px;
+    text-align: center;
+}
+
+.footer {
+    color: black;
+    text-decoration: none;
+}
